@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>The seeds of these Instructables germinated at NJIT as the future founder of our game we built this game to engage more users to play these games as it can make an impact on this world. Our founder Kyle as a child was used to a play a board game called Feudal with his dad as a kid, He also played a lot and like to recall those memories and wanted to do his adoption. That is how it all started for us and due to memories and willingness to continue your childhood even in adulthood is all our company wants.
+</p>
+  <p>The goal of Castle Siege is to use a basic design and game flow to attract lovers of war-based and turn-based tactical games. Our goals are to create a Unity application that can pull in combat and strategy-based demography.
+Make a breakthrough into the strategy game market. Castle Siege will utilize Unity as the game engine, and using Unity will be built as a “web-browser” game hosted on a cloud server, AWS EC2 as the chosen cloud instance provider, and will connect to a frontend and database using RabbitMQ as the message brokering system to connect all three containers into one seamless, asynchronous system. Boardgame-inspired turn-based game where two players take control of their armies and fight it out. The web game is hosted on a backend server that is connected to a Frontend and Database through the use of RabbitMQ. This web game will appeal to fans of turn-based and strategy-based war games. A detailed news and update every hour of the day for different sports. The updates from different leagues worldwide about transfers, managers getting sacked, or player injury or recovery. Data will be ‘scraped’ from the internet every hour based on keywords, with the latter being based on teams or players. This data will be preserved on a Database until the next hour with the subsequent ‘scraping’ and update. The messaging service will make a call to the Backend to perform a scraping and then another call to the database to do the updating. The Frontend will make a call to the Messaging Service to display the desired data and information for the logged-in user.
+.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Kyle" style="width:100%">
+      <div class="container">
+        <h2>Kyle Sosnicki</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>kws8@njit.edu</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Abanoud" style="width:100%">
+      <div class="container">
+        <h2>Abanoud Ibrahim</h2>
+        <p class="title">Title</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Jovel" style="width:100%">
+      <div class="container">
+        <h2>Jovel Charlecius</h2>
+        <p class="title">Title</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Harsh" style="width:100%">
+      <div class="container">
+        <h2>Harsh Patel</h2>
+        <p class="title">Title</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Abhi" style="width:100%">
+      <div class="container">
+        <h2>Abhi patel</h2>
+        <p class="title">Title</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="" alt="Vraj" style="width:100%">
+      <div class="container">
+        <h2>Vraj Shah</h2>
+        <p class="title">Title</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
